@@ -1,0 +1,24 @@
+{
+  "name": "chipotle",
+  "main": "./lib/chipotle",
+  "version": "0.0.0",
+  "description": "Adds an Order Chipotle button to Atom's status bar",
+  "keywords": [
+    "chipotle",
+    "food"
+  ],
+  "repository": "https://github.com/jdgarcia/atom-chipotle",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  }
+}

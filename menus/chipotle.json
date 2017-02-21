@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Order chipotle",
+        "command": "chipotle:order"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "chipotle",
+          "submenu": [
+            {
+              "label": "Order",
+              "command": "chipotle:order"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
