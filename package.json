@@ -1,7 +1,7 @@
 {
   "name": "chipotle",
   "main": "./lib/chipotle",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Adds an Order Chipotle button to Atom's status bar",
   "keywords": [
     "chipotle",
